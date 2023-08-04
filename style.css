@@ -1,0 +1,52 @@
+* {
+  font-family: "Montserrat", sans-serif;
+}
+.main {
+  background-color: whitesmoke;
+}
+
+.aside {
+  color: gainsboro;
+  background-color: darkslategray;
+  float: left;
+  margin-right: 20px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.jdimg {
+  display: block;
+  width: 150px;
+  height: 170px;
+  border-radius: 47%;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 10%;
+}
+
+.contact {
+  text-align: center;
+}
+
+.contact-info {
+  display: flex;
+  align-items: center;
+}
+
+.icon-container {
+  margin-right: 10px;
+}
+
+.text-container {
+  /* styles for text maybe??*/
+}
+
+/*Hobbie section*/
+.hobbies {
+  display: flex;
+  align-items: center;
+}
+
+.sectionname {
+  color: black;
+}
