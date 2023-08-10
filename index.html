@@ -4,68 +4,89 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>David CV Software Engineer</title>
-    <link rel="stylesheet" href="/JDCVproject/style.css" />
+    <link rel="stylesheet" href="/CVproject/JDCVproject/style.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Arimo&family=Chakra+Petch&family=Roboto+Condensed&display=swap");
+    </style>
   </head>
   <body>
     <main class="main">
-      <aside class="aside">
-        <div>
-          <img src="/JDCVproject/img/JDphoto.JPG" alt="JDphoto" class="jdimg" />
+      <!--section contact-->
+      <section class="aside">
+        <img
+          src="/CVproject/JDCVproject/img/JDphoto.JPG"
+          alt="JDphoto"
+          class="jdimg"
+        />
+        <div class="namebox">
+          <h1>David Verdugo</h1>
+          <h2>Software Developer</h2>
         </div>
+        <hr class="separator" />
+        <nav>
+          <div class="contact"><h3>Contact</h3></div>
 
-        <!--section contact-->
-        <div>
-          <div class="contact"><h2>contact</h2></div>
-
-          <div class="contact-info">
+          <div class="contactmail">
             <div class="icon-container">
-              <img src="/JDCVproject/img/icons8-mail-50.png" alt="emailicon" />
+              <img
+                src="/CVproject/JDCVproject/img/icons8-mail-50.png"
+                alt="emailicon"
+                id="icons"
+              />
             </div>
             <div class="text-container">
-              <p>Jdavidverdugo@gmail.com</p>
+              <a href="mailto:jdavidverdugo7@gmail.com" id="links"
+                >jdavidverdugo7@gmail.com</a
+              >
             </div>
           </div>
 
-          <div class="contact-info">
+          <div class="contactphone">
             <div class="icon-container">
-              <img src="/JDCVproject/img/icons8-phone-50.png" alt="phoneicon" />
+              <img
+                src="/CVproject/JDCVproject/img/icons8-phone-50.png"
+                alt="phoneicon"
+                id="icons"
+              />
             </div>
             <div class="text-container">
               <p>0272349888</p>
             </div>
           </div>
 
-          <div class="contact-info">
+          <div class="contactlkd">
             <div class="icon-container">
               <img
-                src="/JDCVproject/img/icons8-location-50.png"
+                src="/CVproject/JDCVproject/img/icons8-linked-in-50.png"
+                alt="linkedin"
+                id="icons"
+              />
+            </div>
+            <div class="text-container">
+              <a href="https://www.linkedin.com/feed/" id="links">linkedin</a>
+            </div>
+          </div>
+
+          <div class="contactlocation">
+            <div class="icon-container">
+              <img
+                src="/CVproject/JDCVproject/img/icons8-location-50.png"
                 alt="locationicon"
+                id="icons"
               />
             </div>
             <div class="text-container">
               <p>69 Halston RD</p>
             </div>
           </div>
-
-          <div class="contact-info">
-            <div class="icon-container">
-              <img
-                src="/JDCVproject/img/icons8-linked-in-50.png"
-                alt="linkedin"
-              />
-            </div>
-            <div class="text-container">
-              <a href="https://www.linkedin.com/feed/">linkedin</a>
-            </div>
-          </div>
-        </div>
+        </nav>
 
         <!--section skills-->
         <div>
           <h2>Skills</h2>
         </div>
 
-        <div>
+        <div class="skillbox">
           <div>
             <div>
               <p>web desing:</p>
@@ -99,7 +120,7 @@
           <h2>Softwares</h2>
         </div>
 
-        <div>
+        <div class="softwarbox">
           <div>
             <div>
               <p>Vscode:</p>
@@ -127,35 +148,11 @@
             </div>
           </div>
         </div>
-
-        <!--secion Hobbies-->
-        <h2>Hobbies</h2>
-        <div class="hobbies">
-          <div>
-            <img src="/JDCVproject/img/icons8-boxing-64.png" alt="boxing" />
-          </div>
-
-          <div>
-            <img src="/JDCVproject/img/icons8-camera-50.png" alt="camera" />
-          </div>
-
-          <div>
-            <img
-              src="/JDCVproject/img/icons8-kitesurfing-50.png"
-              alt="kitesurf"
-            />
-          </div>
-
-          <div>
-            <img src="/JDCVproject/img/icons8-code-64.png" alt="coding" />
-          </div>
-        </div>
-      </aside>
+      </section>
       <!--section name and profile-->
       <section class="sectionname">
-        <article>
-          <span><h1>David Verdugo</h1></span>
-          <h2>Software Developer</h2>
+        <article class="articlesection">
+          <div><h2>profile</h2></div>
           <p>
             Highly skilled and versatile Software Developer with extensive
             experience in designing, developing, and optimizing software
@@ -164,7 +161,7 @@
             applications that exceed user expectations. Strong problem-solving
             and collaboration abilities.
           </p>
-          <div><h2>profile</h2></div>
+
           <div>
             <p>
               As a Software Developer, my goal is to create cutting-edge
@@ -217,10 +214,46 @@
               </li>
             </ul>
           </div>
+
+          <!--secion Hobbies-->
+          <h2>Hobbies</h2>
+          <div class="hobbiesbox">
+            <div>
+              <img
+                src="/CVproject/JDCVproject/img/icons8-boxing-64.png"
+                alt="boxing"
+                class="hobbieimg"
+              />
+            </div>
+
+            <div>
+              <img
+                src="/CVproject/JDCVproject/img/icons8-camera-50.png"
+                alt="camera"
+                class="hobbieimg"
+              />
+            </div>
+
+            <div>
+              <img
+                src="/CVproject/JDCVproject/img/icons8-kitesurfing-50.png"
+                alt="kitesurf"
+                class="hobbieimg"
+              />
+            </div>
+
+            <div>
+              <img
+                src="/CVproject/JDCVproject/img/icons8-code-64.png"
+                alt="coding"
+                class="hobbieimg"
+              />
+            </div>
+          </div>
         </article>
       </section>
       <div id="footer">
-        <footer>&copy; J.David verdugo<span id="year"></span></footer>
+        <footer>&copy; J.David verdugo</footer>
       </div>
     </main>
   </body>

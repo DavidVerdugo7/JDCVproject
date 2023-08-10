@@ -1,52 +1,106 @@
 * {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Arimo", sans-serif;
+  font-family: "Chakra Petch", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
 }
 .main {
   background-color: whitesmoke;
 }
-
+/*contact aside section*/
 .aside {
   color: gainsboro;
   background-color: darkslategray;
   float: left;
   margin-right: 20px;
-  padding-left: 5%;
-  padding-right: 5%;
+  padding-left: 2%;
+  padding-right: 2%;
+  margin-bottom: 20px;
 }
 
 .jdimg {
-  display: block;
-  width: 150px;
-  height: 170px;
-  border-radius: 47%;
-  padding-left: 10%;
-  padding-right: 10%;
+  display: flex;
+  width: 177px;
+  height: 193px;
+  border-radius: 50%;
+  object-fit: cover;
   padding-top: 10%;
+  margin: auto;
+  align-items: center;
 }
 
-.contact {
+.namebox {
   text-align: center;
 }
+.contact {
+  text-align: center;
+  margin-top: 15%;
+}
+.separator {
+  border-top: 0px solid #ccc;
+}
 
-.contact-info {
+.contactmail,
+.contactphone,
+.contactlocation,
+.contactlkd {
   display: flex;
   align-items: center;
+  margin: 10px;
 }
 
 .icon-container {
-  margin-right: 10px;
+  filter: invert(100%);
+  margin-right: 20px;
+  border-radius: 30px;
+  padding: 5px;
+  box-shadow: 50;
+}
+#links {
+  color: gainsboro;
+}
+#icons {
+  width: 30px;
+  height: 30px;
 }
 
 .text-container {
-  /* styles for text maybe??*/
-}
-
-/*Hobbie section*/
-.hobbies {
-  display: flex;
   align-items: center;
 }
 
+#links:hover {
+  color: #96b8ffee; /* Cambio de color al pasar el cursor por encima */
+}
+
+/*Hobbies section*/
+
+.hobbiesbox {
+  display: flex; /* Para alinear los íconos en una fila */
+  justify-content: space-between; /* justificar el contenidocon espacio entre los íconos */
+  align-items: center;
+  margin-right: 60px;
+  margin-left: 350px;
+}
+.hobbieimg {
+  width: 60%;
+}
 .sectionname {
   color: black;
+}
+.skillbox {
+  margin: auto;
+}
+
+.softwarbox {
+  margin-bottom: 50px;
+}
+/*article section profile, work experience*/
+.articlesection {
+  height: 1445px;
+}
+
+/*footer*/
+
+#footer {
+  font-size: 70%;
+  text-align: right;
 }
